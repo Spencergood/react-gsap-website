@@ -1,0 +1,30 @@
+@media only screen and (max-width: 991px) {
+  .s_c {
+    padding-top: 40px;
+  }
+}
+
+.page-enter {
+  transform: 100%;
+  opacity: 0;
+  transition: all 800ms ease-out;
+}
+
+.page-enter-active {
+  transform: 0;
+  opacity: 1;
+  transition: all 800ms ease-out;
+}
+
+.page-exit {
+  transform: 0;
+  opacity: 1;
+  transition: all 800ms ease-out;
+}
+
+.page-exit-active {
+  transform: 100%;
+  opacity: 0;
+
+  transition: all 800ms ease-out;
+}
